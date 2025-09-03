@@ -41,8 +41,8 @@ class TestClass {
         if (!response) {
             Assumptions.assumeTrue(false, "L'heure que vous avez définis n'appartient pas a ce test → test ignoré.");
         } else {
-            Assumptions.assumeTrue(true);
             Assumptions.assumeTrue(date.matches("[a-zA-Z]+"), "Chaîne contient des caractères non autorisés → test ignoré.");
+            Assumptions.assumeTrue(true);
             welcome.getMessage(true, hours, date);
         }
     }
