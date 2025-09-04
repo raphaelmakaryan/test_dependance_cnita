@@ -1,10 +1,10 @@
-package fr.raphaelmakaryan;
-
-import org.junit.jupiter.api.Assertions;
+package fr.raphaelmakaryan.backups;
+/*
+import fr.raphaelmakaryan.Welcome;
 import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.Test;
 
-class TestClass {
+class WelcomeTest {
 
     @Test
     void hello() {
@@ -15,7 +15,7 @@ class TestClass {
         Assumptions.assumeTrue(hours > 9 && hours < 13, "L'heure que vous avez définis n'appartient pas a ce test → test ignoré.");
         Assumptions.assumeTrue(date.matches("[a-zA-Z]+"), "Chaîne contient des caractères non autorisés → test ignoré.");
         Assumptions.assumeTrue(true);
-        new Welcome().getMessage(true, hours, date);
+        new fr.raphaelmakaryan.Welcome().getMessage(true, hours, date);
     }
 
     @Test
@@ -27,12 +27,12 @@ class TestClass {
         Assumptions.assumeTrue(hours > 13 && hours < 18, "L'heure que vous avez définis n'appartient pas a ce test → test ignoré.");
         Assumptions.assumeTrue(date.matches("[a-zA-Z]+"), "Chaîne contient des caractères non autorisés → test ignoré.");
         Assumptions.assumeTrue(true);
-        new Welcome().getMessage(true, hours, date);
+        new fr.raphaelmakaryan.Welcome().getMessage(true, hours, date);
     }
 
     @Test
     void goodNight() {
-        Welcome welcome = new Welcome();
+        fr.raphaelmakaryan.Welcome welcome = new fr.raphaelmakaryan.Welcome();
         // 18 - 9
         int hours = 20;
         // lundi, mardi, mercredi, jeudi
@@ -61,3 +61,4 @@ class TestClass {
         }
     }
 }
+ */

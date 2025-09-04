@@ -3,6 +3,6 @@ package fr.raphaelmakaryan;
 
 public class Main {
     public static void main(String[] args) {
-        new Welcome().getMessage(false, 0, null);
+        System.out.println(new Welcome().getMessage());
     }
 }
